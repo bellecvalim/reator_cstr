@@ -69,39 +69,27 @@ Aqui precisamos fazer, ainda, mais algumas considerações.
 
 Dessa forma, temos que
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{(V.\rho.Cp)dT}{dt} = m.C_p.(T_e - T_{ref}) - m.Cp. (T - T_{ref}) + (-\Delta H_R).V.k.C_a + UA(T_c - T)
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{(V.\rho.Cp)dT}{dt} = m.C_p.(T_e - T_{ref}) - m.Cp. (T - T_{ref}) + (-\Delta H_R).V.k.C_a + UA(T_c - T)$">
 
 Simplificando,
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{(V.\rho.Cp)dT}{dt} = \rho.q.C_p.(T_e - T) + (-\Delta H_R).V.k.C_a + UA(T_c - T)
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{(V.\rho.Cp)dT}{dt} = \rho.q.C_p.(T_e - T) + (-\Delta H_R).V.k.C_a + UA(T_c - T)$">
 
 Como <img src="https://render.githubusercontent.com/render/math?math=$V$">, <img src="https://render.githubusercontent.com/render/math?math=$\rho$"> e <img src="https://render.githubusercontent.com/render/math?math=$C_p$"> são considerados constantes,
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{dT}{dt} = \frac{\rho.q.C_p.(T_e - T) + (-\Delta H_R).V.k.C_a + UA(T_c - T)}{V.\rho.C_p}
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{dT}{dt} = \frac{\rho.q.C_p.(T_e - T) + (-\Delta H_R).V.k.C_a + UA(T_c - T)}{V.\rho.C_p}$">
 
 
 ### Balanço por componente
 
 Para o reagente <img src="https://render.githubusercontent.com/render/math?math=$A$">, temos que
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{dN_a}{dt} = N_{a(ent)} - N_a +V.k.C_a
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{dN_a}{dt} = N_{a(ent)} - N_a +V.k.C_a$">
 
 Como <img src="https://render.githubusercontent.com/render/math?math=$N_a = V.C_a$">,
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{dVC_a}{dt} = q.(C_{a(ent)} - C_a) - V.k.C_a
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{dVC_a}{dt} = q.(C_{a(ent)} - C_a) - V.k.C_a$">
 
 Como <img src="https://render.githubusercontent.com/render/math?math=$V$"> é constante,
 
-<img src="https://render.githubusercontent.com/render/math?math=$
-\frac{dC_a}{dt} = \frac{q.(C_{a(ent)} - C_a) - V.k.C_a}{V}
-$">
+<img src="https://render.githubusercontent.com/render/math?math=$\frac{dC_a}{dt} = \frac{q.(C_{a(ent)} - C_a) - V.k.C_a}{V}$">
